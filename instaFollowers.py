@@ -25,8 +25,6 @@ for i in followees:
 for j in followers:
     followersList.append(j.username)
 
-number = 0
-
 for i in followeesList:
     if i not in followersList:
         print(i, "does not follow you!")
